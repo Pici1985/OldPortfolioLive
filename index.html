@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Balazs Ferencz Portfolio Website</title>
+	<link rel="shortcut icon" href="img/FinalLogoRectangle.png">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- Style CSS -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+
+	<!-- Swiper --> 
+
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+	<div id="navigation-sticky">
+
+		<!-- Navigation -->
+		<nav class="navbar bg-light navbar-light navbar-expand-lg sticky-top">
+			<div id="top" class="container">
+				<a href="index.html" class="navbar-brand"><img src="img/FinalLogo.png" alt="Logo" title="logo" id="logo"></a>
+
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				
+				<div class="collapse navbar-collapse" id="navbarResponsive">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item"><a href="index.html" class="nav-link active">Home</a></li>
+						<li class="nav-item"><a href="projects.html" class="nav-link">Projects</a></li>
+						<li class="nav-item"><a href="cv.html" class="nav-link">CV</a></li>
+						<li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+						<li class="nav-item"><a href="https://thejourney.balazsferencz.co.uk/" class="nav-link" target="_blank">Blog</a></li>
+					</ul>
+				</div>
+			</div> 
+		</nav>
+		
+		<!-- End Navigation -->
+			
+		<!-- Main title starts -->
+		<div class="main-title-wrapper">
+			<div class="container col-sm-10 col-md-8 col-lg-7 col-xl-6 title-container">	
+				<div class="main-title">
+					<h1 class="titleh1"> Hi, my name is <span>Balazs Ferencz</span> I`m a <span>Full Stack Developer</span>. This website is a showcase of my 
+						<a href="./projects.html">
+							<button class="btn btn-outline-light">
+								Projects
+							</button>
+						</a>
+					</h1> 
+				</div>
+			</div>	
+		</div>
+		<!-- Main title ends -->
+		
+	</div> <!-- End Navigation Sticky ID Section -->
+	
+
+	<div id="social-media-sticky">
+
+		<!-- Start Social Jumbotron -->
+		<div class="jumbotron sticky-top">
+			<div class="container social-container">
+				<div class="row justify-content-center text-center">
+
+					<div class="d-none d-xl-flex col-xl-10 pt-1">
+						<h3>My Socials:</h3>
+					</div>
+					<div class="col-sm-10 col-md-8 col-lg-7 col-xl-2 pt-1 icons">
+						<ul class="social">
+							<li><a href="https://github.com/Pici1985" target="_blank">
+									<i class="fab fa-github" style="color: #171515;"></i></a></li>
+							<li><a href="https://www.linkedin.com/in/bal%C3%A1zs-ferencz-a008931b0" target="_blank">
+									<i class="fab fa-linkedin" style="color: #0e76a8;"></i></a></li>
+							<li><a href="https://www.facebook.com/balazsferencz85" target="_blank">
+									<i class="fab fa-facebook-square" style="color: #3b5998;"></i></a></li>
+							<li><a href="https://twitter.com/BalazsFerencz3" target="_blank">
+									<i class="fab fa-twitter-square" style="color: #00acee;"></i></a></li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<!-- End Social Jumbotron -->
+
+
+		<!-- Start Two Column Section -->
+		<div class="container mt-5">
+			<div class="row justify-content-center align-items-start">
+
+				<div class="col-lg-5 mb-4 my-lg-auto">
+					<h1 class="mb-3">About me: </h1>
+					<p class="mb-4" >
+						I started studying web development out of curiosity in the second half of 2019, on TeamTreehouse`s subscription-based platform, the more I`ve practiced the more I liked the idea of writing code. After being furloughed for a fairly long period in 2020 I had substantially more time on my hands and got totally hooked on creating web projects. I tried out loads of technologies including Python, WordPress, PHP, React just to name a few to finally settle on the JavaScript ecosystem. I am currently sharpening my Angular and TypeScript skills. I am very keen to provide real value to a professional organization while improving my skills as a junior developer.
+					</p>
+					<a href="cv.html" target="_blank" class="btn btn-outline-dark btn-lg">
+						See my CV
+					</a>
+				</div>
+
+				<div class="col-lg-4 col-md-5 col-sm-6 bazsiwrp">
+					<a href="cv.html" target="_blank">
+						<img id="bazsi" src="img/BazsiTemplomCropped.png" alt="" class="w-100">
+					</a>
+				</div>
+
+			</div>
+		</div>
+		<!-- End Two Column Section -->
+
+		<!-- Main Page Heading -->
+
+		<div class="col-12 text-center mt-5">
+			<h1 class="display-4 pt-4 tech">Technologies</h1>
+			<div class="border-top border-dark w-50 mx-auto my-3"></div>
+			<p class="lead">Languages and frameworks I`m able to work with:</p>
+		</div>
+
+		<!-- Three Column Section -->
+		<div class="container">
+			<div class="row justify-content-center my-5 text-center">
+
+				<div class="col-md-6 col-lg-2 py-3">
+					<span class="fa-stack fa-4x">
+						<i class="fas fa-square fa-stack-2x"></i>
+						<i class="fab fa-html5 fa-stack-1x fa-inverse" style="color: #dd4d26"></i>
+					</span>
+					<p class="lead">HTML5</p>
+					
+				</div>
+
+				<div class="col-md-6 col-lg-2 py-3">
+					<span class="fa-stack fa-4x">
+						<i class="fas fa-square fa-stack-2x"></i>
+						<i class="fab fa-css3-alt fa-stack-1x fa-inverse" style="color: #026bd6"></i>
+					</span>
+					<p class="lead">CSS3</p>
+					
+				</div>
+
+				<div class="col-md-6 col-lg-2 py-3">
+					<span class="fa-stack fa-4x">
+						<i class="fas fa-square fa-stack-2x"></i>
+						<i class="fab fa-js-square fa-stack-1x fa-inverse" style="color: #f0db4f "></i>
+					</span>
+					<p class="lead">JavaScript</p>
+					
+				</div>
+				
+				
+			</div>
+		</div>
+		
+		<div class="container">
+			<div class="row justify-content-center my-5 text-center">				
+				<div class="col-md-6 col-lg-2 py-3">
+					<span class="fa-stack fa-4x">
+						<i class="fas fa-square fa-stack-2x"></i>
+						<i class="fab fa-angular fa-stack-1x fa-inverse" style="color: #dd1b16"></i>
+					</span>
+					<p class="lead">Angular</p>
+					
+				</div>
+		
+				<div class="col-md-6 col-lg-2 py-3">
+					<span class="fa-stack fa-4x">
+						<i class="fas fa-square fa-stack-2x"></i>
+						<img class="typescript-logo" src="./img/ts-logo-128.svg" alt="">
+					</span>
+					<p class="lead">TypeScript</p>
+					
+				</div>
+				
+				<div class="col-md-6 col-lg-2 py-3">
+					<span class="fa-stack fa-4x">
+						<i class="fas fa-square fa-stack-2x"></i>
+						<i class="fab fa-bootstrap fa-stack-1x fa-inverse" style="color: #563d7c"></i>
+					</span>
+					<p class="lead">Bootstrap</p>					
+				</div>
+			</div>
+		</div >
+		
+		<div class="container">
+			<div class="row justify-content-center my-5 text-center last-div">
+				<div class="col-md-6 col-lg-2 py-3">
+					<span class="fa-stack fa-4x">
+						<i class="fas fa-square fa-stack-2x"></i>
+						<i class="fab fa-sass fa-stack-1x fa-inverse" style="color: #CD6799"></i>
+					</span>
+					<p class="lead">Sass</p>					
+				</div>
+				
+				
+				<div class="col-md-6 col-lg-2 py-3">
+					<span class="fa-stack fa-4x">
+						<i class="fas fa-square fa-stack-2x"></i>
+						<i class="fab fa-figma fa-stack-1x fa-inverse" style="color: black"></i>
+					</span>
+					<p class="lead">Figma</p>					
+				</div>					
+				<div class="col-md-6 col-lg-2 py-3">
+					<span class="fa-stack fa-4x">
+						<i class="fas fa-square fa-stack-2x"></i>
+						<i class="fab fa-wordpress fa-stack-1x fa-inverse" style="color: #21759b"></i>
+					</span>
+					<p class="lead">WordPress</p>
+				</div>
+			</div>
+		</div>
+		<!-- End Three Column Section -->
+
+		<!-- border -->
+
+		
+
+
+	</div> <!-- End Social Media Sticky -->
+
+
+	
+
+	<div id="text-button-sticky">
+
+		
+		<div class="col-12 text-center mt-5 first-div">
+			<h1 class="display-4 pt-4">Project Overview</h1>
+			<div class="border-top border-dark w-50 mx-auto my-3"></div>
+			<p class="lead">Thumbnails of my work:</p>
+		</div>
+
+	</div> <!-- End Text Button Sticky -->
+
+	<!-- swiper -->
+
+	<div class="swiper-container mySwiper">
+		<div class="swiper-wrapper">
+		  	<div class="swiper-slide">
+			  <span>Study Time Counter</span>
+			  <img src="./img/StudyTime700.jpg" />
+			  <a href="./projects.html">See Project</a>
+			</div>
+		  	<div class="swiper-slide">
+			  <span>Kanban Board</span>
+			  <img src="./img/Kanban700.jpg" />
+			  <a href="./projects.html">See Project</a>
+			</div>
+			<div class="swiper-slide">
+				<span>Rock/Paper/Scissors </span>
+				<img src="./img/rpsnewcropped.jpg" />
+				<a href="./projects.html">See Project</a>
+			</div>
+			<div class="swiper-slide">
+			  <span>Code Snippets</span>
+			  <img src="./img/snippetsfinalcrop.jpg" />
+			   <a href="./projects.html">See Project</a>
+			  </div>
+		  	<div class="swiper-slide">
+			  <span>Body Mass Index</span>
+			  <img src="./img/bminewcropped.jpg" />
+			  <a href="./projects.html">See Project</a>
+			</div>
+			<div class="swiper-slide">
+			  <span>Time Counter</span>
+			  <img src="./img/timer.jpg" />
+			  <a href="./projects.html">See Project</a>
+			</div>
+			<div class="swiper-slide">
+			  <span>To-Do App</span>
+			  <img src="./img/Reactappcropped.jpg" />
+			  <a href="./projects.html">See Project</a>
+			</div>
+		</div>
+		<div class="swiper-pagination"></div>
+	  </div>
+
+	<!-- swiper -->  
+
+	
+	<!-- Start Website Designs Jumbotron -->
+	<div class="jumbotron py-5 mb-0 " >
+		<div class="container">
+			<div class="row">
+
+				<div class="col-md-7 col-lg-8 col-xl-9 my-auto">
+					<h4>Thanks for visiting!!! </h4>
+				</div>
+
+				<div class="col-md-5 col-lg-4 col-xl-3 pt-4 pt-md-0">
+					<a href="index.html" class="btn btn-outline-dark btn-lg">Back to Top</a>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<!-- End Website Designs Jumbotron -->
+	
+	<!-- Start Footer -->
+	<footer>
+		<div class="container">
+			<div class="row justify-content-center text-center text-light contactinfo">
+
+				<div class="col-md-9">
+					<img src="img/FinalLogoWhite.png" alt="logo">
+				</div>
+				
+				<div class="col-md-4">
+					<h5 class="contacth5">Contact Me:</h5>
+					<hr class="bg-light">
+					<p><a href="tel:+07565025167"> 0756-502-5167</a></p>
+					<p id="email"><a href="mailto: ferenczbalazs85@gmail.com">ferenczbalazs85@gmail.com</a></p>
+				</div>
+			</div>
+
+			<form class="contactForm" action="https://formsubmit.co/ferenczbalazs85@gmail.com" method="POST">
+				<div class="form-group">
+					<input class="input form-control" type="text" name="name" placeholder="Your name:" required>
+					<input class="input form-control" type="email" name="email" placeholder="Your email:" required>
+					<textarea class="input form-control" type="text" name="meassage" rows="10" placeholder="Message:"></textarea>
+					<button class="input btn btn-outline-light form-control" type="submit">Submit</button>
+				</div>
+		   </form>
+		</div>
+	</footer>
+	<!-- End Footer -->
+	
+
+	<!-- Start Socket -->
+	<div class="socket text-light text-center py-4">
+		<p id="contact">&copy; <a href="index.html">Balazs Ferencz</a> 2020</p>
+	</div>
+	<!-- End Socket -->
+
+
+	<!-- Script Source Files -->
+
+	<!-- jQuery -->
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<!-- Bootstrap JS -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Popper JS -->
+	<script src="js/popper.min.js"></script>
+	<!-- Font Awesome -->
+	<script src="js/all.min.js"></script>
+
+	<!-- Swiper -->
+
+	<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+	<!-- Init Swiper-->
+
+	<script>
+		var swiper = new Swiper(".mySwiper", {
+		  effect: "coverflow",
+		  grabCursor: true,
+		  centeredSlides: true,
+		  slidesPerView: "auto",
+		  coverflowEffect: {
+			rotate: 50,
+			stretch: 0,
+			depth: 100,
+			modifier: 1,
+			slideShadows: false,
+		  },
+		  pagination: {
+			el: ".swiper-pagination",
+		  },
+		});
+	  </script>
+
+	<!-- End Script Source Files -->
+</body>
+
+</html>

@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Balazs Ferencz Portfolio Website</title>
+	<link rel="shortcut icon" href="img/FinalLogoRectangle.png">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- Style CSS -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<div id="navigation-sticky">
+
+		<!-- Navigation -->
+		<nav class="navbar bg-light navbar-light navbar-expand-lg sticky-top">
+			<div id="top" class="container">
+				<a href="index.html" class="navbar-brand"><img src="img/FinalLogo.png" alt="Logo" title="logo"
+						id="logo"></a>
+
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarResponsive">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item"><a href="index.html" class="nav-link ">Home</a></li>
+						<li class="nav-item"><a href="projects.html" class="nav-link active">Projects</a></li>
+						<li class="nav-item"><a href="cv.html" class="nav-link">CV</a></li>
+						<li class="nav-item"><a href="index.html#contact" class="nav-link">Contact</a></li>
+						<li class="nav-item"><a href="https://thejourney.balazsferencz.co.uk/" class="nav-link" target="_blank">Blog</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<div class="col-12 text-center mt-5">
+			<h1 class="display-4 pt-4">Projects</h1>
+			<div id="projectstitle" class="border-top border-dark w-50 mx-auto my-3"></div>
+			<p class="lead">Description and screenshots of my work:</p>
+		</div>
+
+		<!-- Navigation  End-->
+
+		<!-- Three Column Section -->
+
+		<div class="container">
+			<div class="row justify-content-center my-5 text-center">
+
+				<div  class="col-md-6 col-lg-4 col-xs-2 my-4 ">
+					<h4 class="my-3">Study Time Counter</h4>
+					<a href="https://balazsferencz.co.uk/studytimecounter/" target="_blank">
+						<img src="img/StudyTime700.jpg" alt="studytime" class="w-100 project inlarge">
+					</a>
+					<p>Study Time Counter application with a fake "backend"</p>
+					<div class="technologies">
+						<span class="fa-stack fa-2x">
+							<i class="fab fa-html5 fa-stack-1x fa-inverse" style="color: #dd4d26"></i>
+						</span>
+						<span class="fa-stack fa-2x">
+							<i class="fab fa-css3-alt fa-stack-1x fa-inverse" style="color: #026bd6"></i>
+						</span>
+						<span class="fa-stack fa-2x">
+							<i class="fab fa-js-square fa-stack-1x fa-inverse" style="color: #f0db4f "></i>
+						</span>
+					</div>
+					<div>
+						<button class="btn btn-outline-dark btn-md" type="button" data-toggle="collapse"
+							data-target="#collapseExample0" aria-expanded="false" aria-controls="collapseExample">
+							Description...
+						</button>
+						<a href="https://github.com/Pici1985/StudyTimeCounter" target="_blank" class="btn btn-outline-success btn-md">
+							See some Code...
+						</a>
+					</div>
+					<p>
+						<div class="collapse" id="collapseExample0">
+							<div class="card card-body">
+								A time counter application where a project can be named, counter can be started and stopped. The actual count gets saved into a list on the timetracker view and the projects view. On the timetracker view the count can be restarted and stopped again. Projects can be deleted on the projects view. There are some error messages if the user tries to delete a project while counting. The digital clock shows the correct time, and the date is also shown in the bottom left corner. Data is being persisited to localstorage. Please note this is v1.0 therefore the calendar functionality is not yet implemented.  
+							</div>
+						</div>
+					</p>
+				</div>
+				
+				<div class="col-md-6 col-lg-4 col-xs-2 my-4 ">
+					<h4 class="my-3">KanbanFire</h4>
+					<a href="https://kanban-fire-workshop-a40c8.web.app/" target="_blank">
+						<img src="img/Kanban700.jpg" alt="kanban" class="w-100 project inlarge">
+					</a>
+					<p>Full stack Kanban Board with Firebase backend</p>
+					<div class="technologies">
+						<span class="fa-stack fa-2x">
+							<i class="fab fa-angular fa-stack-1x fa-inverse" style="color: #dd1b16"></i>
+						</span>
+						<span class="fa-stack fa-2x">
+							<img id="firebaselogo" src="./img/firebase.svg" alt="firebase">
+						</span>
+					</div>
+					<div>
+						<button class="btn btn-outline-dark btn-md" type="button" data-toggle="collapse"
+							data-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">
+							Description...
+						</button>
+						<a href="https://github.com/Pici1985/kanban-fire" target="_blank"
+							class="btn btn-outline-success btn-md">See some Code...
+						</a>
+					</div>
+					<p>
+						<div class="collapse" id="collapseExample1">
+							<div class="card card-body">
+								This is a simple Kanban board application with Firebase backend. The frontend is built with Angular. Tasks can be added, dragged and dropped between columns, they can be updated and deleted on double click.		  
+							</div>
+						</div>
+					</p>
+				</div>
+
+				<div class="col-md-6 col-lg-4 col-xs-2 my-4 ">
+					<h4 class="my-3">Rock/Paper/Scissors</h4>
+					<a href="http://balazsferencz.co.uk/rps/index.html" target="_blank">
+						<img src="img/rpsnewcropped.jpg" alt="RockPaperScissors" class="w-100 project inlarge">
+					</a>
+					<p>Fun version of the classic Rock/Paper/Scissors game.</p>
+					<div class="technologies">
+						<span class="fa-stack fa-2x">
+							<i class="fab fa-html5 fa-stack-1x fa-inverse" style="color: #dd4d26"></i>
+						</span>
+						<span class="fa-stack fa-2x">
+							<i class="fab fa-css3-alt fa-stack-1x fa-inverse" style="color: #026bd6"></i>
+						</span>
+						<span class="fa-stack fa-2x">
+							<i class="fab fa-js-square fa-stack-1x fa-inverse" style="color: #f0db4f "></i>
+						</span>
+					</div>
+					<div>
+						<button class="btn btn-outline-dark btn-md" type="button" data-toggle="collapse"
+							data-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
+							Description...
+						</button>
+						<a href="https://github.com/Pici1985/RPS" target="_blank" class="btn btn-outline-success btn-md">
+							See some Code...
+						</a>
+					</div>
+					<p>
+						<div class="collapse" id="collapseExample2">
+							<div class="card card-body">
+								This is a Rock/Paper/Scissors game. It has a choice of Single Player or on screen Multiplayer options.
+								In Single player mode you are competing against a the computer. There is a score counter feature as well to see who is winning in the long term.  
+						</div>
+					</div>
+				</p>
+				</div>				
+			</div>
+		</div>
+		
+		<!-- Three Column Section End-->		
+		
+		<!-- Second Three Column Section -->
+		
+		
+		<div class="container">
+			<div class="row justify-content-center my-5 text-center">
+				
+				<div id="snippets" class="col-md-6 col-lg-4 col-xs-2 my-4 ">
+					<h4 class="my-3">Code Snippets</h4>
+					<a href="http://balazsferencz.co.uk/snippets" target="_blank"><img src="img/snippetsfinalcrop.jpg"
+							alt="gaz" class="w-100 project inlarge">
+					</a>
+					<p>This website is powered by the Genesis Framework of Wordpress</p>
+					<div class="technologies">
+						<span class="fa-stack fa-2x">
+							<i class="fab fa-wordpress fa-stack-1x fa-inverse" style="color: #21759b"></i>
+						</span>
+						<span class="fa-stack fa-2x">
+							<i class="fab fa-sass fa-stack-1x fa-inverse" style="color: #CD6799"></i>
+						</span>
+					</div>
+					<div>
+						<button class="btn btn-outline-dark btn-md" type="button" data-toggle="collapse"
+							data-target="#collapseExample4" aria-expanded="false" aria-controls="collapseExample">
+							Description...
+						</button>
+					</div>
+					<p>
+						<div class="collapse" id="collapseExample4">
+							<div class="card card-body">
+							This Project is a blog style website created in Wordpress with the Genesis Framework to have myself a little storage 
+							so that I can have my most frequently used code snippets all in one place. Snippets are embedded from as Gists from GitHub.
+							</div>
+						</div>
+					</p>
+				</div>
+								
+				<div id="bmi" class="col-md-6 col-lg-4 col-xs-2 my-4 ">	
+					<h4 class="my-3">Body Mass Index </h4>
+					<a href="http://balazsferencz.co.uk/BMI/index.html" target="_blank">
+						<img src="img/bminewcropped.jpg" alt="BMI" class="w-100 project inlarge">
+					</a>
+					<p>A simple app to calculate one`s BMI with a fun visual twist.</p>
+					<div class="technologies">
+						<span class="fa-stack fa-2x">
+							<i class="fab fa-html5 fa-stack-1x fa-inverse" style="color: #dd4d26"></i>
+						</span>
+						<span class="fa-stack fa-2x">
+							<i class="fab fa-css3-alt fa-stack-1x fa-inverse" style="color: #026bd6"></i>
+						</span>
+						<span class="fa-stack fa-2x">
+							<i class="fab fa-js-square fa-stack-1x fa-inverse" style="color: #f0db4f "></i>
+						</span>
+					</div>
+					<div>
+						<button class="btn btn-outline-dark btn-md" type="button" data-toggle="collapse"
+							data-target="#collapseExample5" aria-expanded="false" aria-controls="collapseExample">
+							Description...
+						</button>
+						<a href="https://github.com/Pici1985/BMIFinished" target="_blank"
+							class="btn btn-outline-success btn-md">See some Code...
+						</a>
+					</div>
+					<p>
+						<div class="collapse" id="collapseExample5">
+							<div class="card card-body">
+								This project was one of my first ever to be finished. The app makes a simple calculation
+								from user input data and reveals it. 
+								According to that number it categorizes the user into one of three groups
+								and renders a funny comparison image. 
+							</div>
+						</div>
+					</p>
+				</div>
+				
+				<div id="todo" class="col-md-6 col-lg-4 col-xs-2 my-4 ">
+					<h4 class="my-3">To-Do list App </h4>
+					<a href="https://pici1985.github.io/React-ToDoApp" target="_blank">
+						<img src="img/Reactappcropped.jpg" alt="todo"
+						class="w-100 project inlarge">
+					</a>
+					<p>A simple To-Do list application built with React. </p>
+					<div class="technologies">
+						<span class="fa-stack fa-2x">
+							<i class="fab fa-react fa-stack-1x fa-inverse" style="color: #61DBFB"></i>
+						</span>
+					</div>
+					<div>
+						<button class="btn btn-outline-dark btn-md" type="button" data-toggle="collapse"
+						data-target="#collapseExample6" aria-expanded="false" aria-controls="collapseExample">
+						Description...
+						</button>
+						<a href="https://github.com/Pici1985/reactapp" target="_blank" class="btn btn-outline-success btn-md">
+							See some Code...
+						</a>
+					</div>
+					<p>
+						<div class="collapse" id="collapseExample6">
+							<div class="card card-body">
+								This is a simple To-Do application built with React. This was my first project built with the library.
+								To-Do lines can be added, they can be marked completed or deleted. Please note this project is work in progress. 
+							</div>
+						</div>
+					</p>
+				</div>
+			</div>
+		</div>
+		
+		<!-- Second Three Column Section End-->
+		
+		<!-- third Three Column Section -->
+		
+		<div class="container">
+			<div class="row justify-content-center my-5 text-center">
+				
+				<div id="timer" class="col-md-6 col-lg-4 col-xs-2 my-4 ">
+					<h4 class="my-3">Timer App</h4>
+					<a href="https://pici1985.github.io/Timer" target="_blank"><img src="img/timer.jpg" alt="timer"
+						class="w-100 project inlarge">
+					</a>
+					<p>A watch and stopwatch app to count time.</p>
+					<div class="technologies">
+						<span class="fa-stack fa-2x">
+							<i class="fab fa-html5 fa-stack-1x fa-inverse" style="color: #dd4d26"></i>
+						</span>
+						<span class="fa-stack fa-2x">
+							<i class="fab fa-css3-alt fa-stack-1x fa-inverse" style="color: #026bd6"></i>
+						</span>
+						<span class="fa-stack fa-2x">
+							<i class="fab fa-js-square fa-stack-1x fa-inverse" style="color: #f0db4f "></i>
+						</span>
+					</div>
+					<div>
+						<button class="btn btn-outline-dark btn-md" type="button" data-toggle="collapse"
+						data-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample">
+						Description...
+						</button>
+						<a href="https://github.com/Pici1985/Timer" target="_blank"
+							class="btn btn-outline-success btn-md">
+							See some Code...
+						</a>
+					</div>
+					<p>
+						<div class="collapse" id="collapseExample3">
+							<div class="card card-body">
+								The clock shows the actual time getting data from
+								the computers own clock. Stopwatch can be started, stopped, cleared. On submit a line of text is rendered with the lenght of the current session.
+								This data is saved into a JSON file. With the use of JSON-server NPM package.
+								Session data can be retrieved from db.JSON once everything is properly set up for the app to work.
+								Please see README on GitHub.							
+							</div>
+						</div>
+					</p>
+				</div>
+
+			</div>	
+		</div>	
+
+		<!-- Three Column Section End-->
+		
+		
+		
+		<!-- Start Socket -->
+		<div class="socket text-light text-center py-4">
+			<p id="contact">&copy; <a href="index.html">Balazs Ferencz</a> 2020</p>
+		</div>
+		<!-- End Socket -->
+
+
+		<!-- Script Source Files -->
+
+		<!-- jQuery -->
+		<script src="js/jquery-3.4.1.min.js"></script>
+		<!-- Bootstrap JS -->
+		<script src="js/bootstrap.min.js"></script>
+		<!-- Popper JS -->
+		<script src="js/popper.min.js"></script>
+		<!-- Font Awesome -->
+		<script src="js/all.min.js"></script>
+
+		<!-- End Script Source Files -->
+</body>
+
+</html>
